@@ -1,0 +1,41 @@
+.box{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    margin-top: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.box .img-box{
+    position: absolute;
+    display: flex;
+    display: -webkit-flex;
+    
+    height: 350px;
+}
+.box .img-box img{
+    width: 900px;
+    height: 100%;
+    
+}
+.box .choose-brand{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    display: -webkit-flex;
+}
+.box .choose-brand>div{
+    height: 100%;
+    flex-grow: 1;
+    background-color:#121112;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    color: #C4C4C4;
+    font-size: 16px;
+    cursor: pointer;
+}
